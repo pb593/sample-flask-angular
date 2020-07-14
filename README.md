@@ -34,6 +34,7 @@ Install the following requisites:
 - NodeJs
 - Angular-cli
 
+On a Mac, this would typically be done using the `brew` command.
 
 Installation
 ----
@@ -59,12 +60,14 @@ $ npm install
 Deployment
 ----
 
-First build production application of Angular with Angular-cli:
+First build application of Angular with Angular-cli:
 
 ```sh
-$ cd sample-flask-angular
-$ ng build --prod
+$ cd sample-flask-angular/angular
+$ ng build
 ```
+This will compile the Angular code and output artifacts into the `dist` directory within `sample-flask-angular/angular`. 
+
 
 Start server:
 ```sh
@@ -81,3 +84,4 @@ Authors
 ----
 
 - Ismael Taboada: [profile](https://github.com/ismtabo)
+- Pavel Berkovich: [profile](https://github.com/pb593)
